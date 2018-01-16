@@ -10,13 +10,13 @@
 
 ## Try it out
 
-1, Start a mongodb
-    I started in a docker container: docker run --name mongo -d mongo
-2, Start the spring bootapp
-    ./gradlew bootRun
-3, Go to http://localhost:8080 in you browser
-4, Check in the mongodb that the errors are logged
-    If you used started the mongo in docker container, then:
-        - docker exec -it mongo mongo
-        - use jserrors
+1, Start a mongodb  
+    I started in a docker container: docker run --name mongo -d mongo  
+2, Start the spring bootapp  
+    ./gradlew bootRun  
+3, Go to http://localhost:8080 in you browser  
+4, Check in the mongodb that the errors are logged  
+    If you used started the mongo in docker container, then:  
+        - docker exec -it mongo mongo  
+        - use jserrors  
         - db.error.find()
